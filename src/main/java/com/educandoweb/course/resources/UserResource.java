@@ -1,4 +1,4 @@
-package com.educandoweb.course.resourses;
+package com.educandoweb.course.resources;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,7 +9,7 @@ import com.educandoweb.course.entities.User;
 
 @RestController
 @RequestMapping(value = "/users")
-public class UserResourse {
+public class UserResource {
 
 	@GetMapping
 	public ResponseEntity<User> findAll(){
